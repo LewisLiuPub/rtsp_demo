@@ -7,7 +7,7 @@ using namespace cv;
 
 int main(int argc, char** argv)
 {
-    String rtsp_addr = "rtsp://admin:a1234567@192.168.5.186:554/MPEG-4/ch1/main/av_stream";
+    String rtsp_addr = "rtsp://admin:HHTHBY@192.168.110.104:554/MPEG-4/ch1/main/av_stream";
 
     VideoCapture cap(rtsp_addr);
 //    cap.open(rtsp_addr);
